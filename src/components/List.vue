@@ -2,7 +2,7 @@
   <div class="list">
     <div class="works">
       <div style="margin-bottom:50px;">
-        <p class="title">works.</p>
+        <p class="listtitle">works.</p>
         <div class="work wien" ref="wien">
           <router-link to="wien" class="hover" @click="worksAnimation(0)">
             Wien
@@ -82,7 +82,7 @@ export default{
 .works{
 
 }
-.title{
+.listtitle{
   margin:0;
   font-weight: 500;
   font-size: 14px;
