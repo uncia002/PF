@@ -90,7 +90,7 @@ export default{
 .work{
   margin:0;
   position: absolute;
-  transition:.5s;
+  transition:1s;
 }
 .work a{
   margin:0;
