@@ -1,6 +1,6 @@
 
 module.exports = {
-  publicPath: '/portfolio',
+  publicPath: '/PF',
   outputDir: 'docs',
   filenameHashing: false,
   productionSourceMap: false,
