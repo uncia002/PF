@@ -122,6 +122,7 @@ body{
   width: 100%;
   height: 100%;
   overflow: hidden;
+
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -158,7 +159,7 @@ body{
   left: -8px;
   width: 16px;
   height: 16px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.5);
   border-radius: 50%;
   transition: transform 0.2s, top, 0.5s, left 0.5s, width .5s, height .5s, background-color .5s;
   transition-timing-function: ease-out;

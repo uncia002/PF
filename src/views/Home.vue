@@ -1,9 +1,6 @@
 <template>
   <div class="home">
-    <div class="para">
-    </div>
-    <div class="lay">
-      <div id="lineDrawing">
+    <div class="lay" id="lineDrawing">
         <svg width="414" height="341.25" xmlns="http://www.w3.org/2000/svg">
           <g class="lines" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1">
             <path d="M 0 0 H 68.25 V 341.25 H 0 V 0"></path>
@@ -13,7 +10,6 @@
             <path d="M 341.25 95.55 V 341.25 H 409.5 V 95.55 H 341.25"></path>
           </g>
         </svg>
-      </div>
       <div class="message">
 
         <h1 class="title" id="title">PORTFOLIO</h1>
@@ -83,8 +79,12 @@ export default {
 
 .lay{
   width: 80%;
-  margin:0 auto;
   color: white;
+  position:absolute;
+  left: 50%;
+  top:50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
 
 }
 .message{
@@ -107,4 +107,14 @@ export default {
 path{
   color:white;
 }
+#lineDrawing{
+  position: relative;
+}
+/* #lineDrawing svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+} */
 </style>
